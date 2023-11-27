@@ -1,4 +1,6 @@
-from entropik_scene_detection_analysis.scene_detection_analysis.scene_detection import SceneDetection
+from entropik_scene_detection_analysis.scene_detection_analysis.scene_detection import (
+    SceneDetection,
+)
 
 
 class ProcessMedia:
@@ -23,4 +25,5 @@ class ProcessMedia:
 
 if __name__ == "__main__":
     process_scenes = ProcessMedia(media_path="/Users/uzair/Downloads/Ajio.webm")
-    print(process_scenes.get_scene_detection_analysis())
+    results = process_scenes.get_scene_detection_analysis()
+    print("results: ", results)
