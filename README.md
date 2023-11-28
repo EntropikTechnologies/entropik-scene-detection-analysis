@@ -58,6 +58,11 @@ ENT-DS-ESDA-02 : Scenes extraction from media is failed.
 ENT-DS-ESDA-03 : Scene detection algorithm failed while consolidating the results.
 ```
 
+### Input Media File Formats Supported
+* .mp4
+* .webm
+* .mov
+
 ### Sample Input
 
 ```
@@ -69,11 +74,7 @@ detect_scene.get_scene_detection_analysis()
 ### Sample Output
 
 ```
-[{'start_time': 0, 'end_time': 34, 'frame_number': 1}, {'start_time': 34, 'end_time': 3433, 'frame_number': 101}, 
+[{'start_time': 0, 'end_time': 34, 'frame_number': 1}, {'start_time': 34, 'end_time': 3433, 'frame_number': 101},
 {'start_time': 3433, 'end_time': 12034, 'frame_number': 354}, {'start_time': 12034, 'end_time': 13734, 'frame_number': 404},
 {'start_time': 13734, 'end_time': 15807, 'frame_number': 465}, {'start_time': 15807, 'end_time': 16861, 'frame_number': 496}]
 ```
-
-
-
-
