@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="entropik_scene_detection_analysis",
-    version="1.0.2",
+    version="1.0.3",
     author="Entropik Tech",
     author_email="entropiktech@entropiktech.com",
     description="Entropik Scene Detection Analysis",

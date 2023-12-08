@@ -9,3 +9,6 @@
 
 ### Version 1.0.2
 * Updated setup.py file.
+
+### Version 1.0.3
+* Updated scene_detection.py file.
